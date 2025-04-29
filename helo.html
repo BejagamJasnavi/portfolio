@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Potfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #444;
+        } 
+        header {
+            background-color: #b361ff;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 12px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+        nav a:hover {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+        /* About the event */
+        section {
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        section:hover {
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+        section h2 {
+            color: #d61fc7;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table th,
+        table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f1f1f1;
+            font-weight: 600;
+            color: #333;
+        }
+       
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 12px 0;
+            font-size: 1.2rem;
+        }
+        ul li strong {
+            color: #f31fac;
+        }
+        form {
+            max-width: 650px;
+            margin: 25px auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        form input:focus,
+        form textarea:focus {
+            border-color: #FF4500;
+            outline: none;
+        }
+        form button {
+            background-color: #FF4500;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #C8372D;
+        }
+        form button:active {
+            background-color: #A6281F;
+        }
+        .parent{
+            float: left;
+        }
+        img{
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>..............................................................</p>
+    </header>
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#Education">Education</a> |
+        <a href="#characters">Technical skills</a> |
+        <a href="#contact">Training &certification</a>
+        <a href="#contact">PersonalDetails</a>
+    </nav>
+    <section id="about">
+        <h2>About</h2>
+        <div class="parent">
+        <img src="https://static.vecteezy.com/system/resources/previews/042/332/098/non_2x/default-avatar-profile-icon-grey-photo-placeholder-female-no-photo-images-for-unfilled-user-profile-greyscale-illustration-for-socail-media-web-vector.jpg"/>
+        </div>
+        <p><b>Email ID:</b><lr> jasnavibejagam@gmail.com</lr></p>
+        <p><b>contact:</b><lr> 9676018145</lr></p>
+        <p><b>LinkedID:</b><lr> www.linkedin.com/in/jasnavi-bejagam-a5b246287</lr></p>
+    </section>
+    <section id="schedule">
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Year</th>
+                    <th>Institution Name</th>
+                    <th>Board</th>
+                    <th>Parcentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B. Tech[Data science]</td>
+                    <td>2022-2026</td>
+                    <td>narasaraopeta engineering College</td>
+                    <td>Jntuk</td>
+                    <td>81%</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>2020-2022</td>
+                    <td>sri Harshini Jr college</td>
+                    <td>BOIE</td>
+                    <td>74%</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>2019-2020</td>
+                    <td>Z.P.H school</td>
+                    <td>SSC</td>
+                    <td>90%</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    <section id="characters">
+        <h2>Technical skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> C, Python</li>
+            <li><strong>front-end-technologies:</strong> Html ,Css</li>
+            <li><strong>Databases :</strong> Sql</li>
+            
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Training and Certifications</h2>
+        <li>Course completion certificate in The joy of computing using python</li>
+        <li>Course completion certificate inm Basics of C++ throuh edX</li>
+        <li>complete one week workshop on AWS cloud computing</li>
+        <li>complete on week workshop on pandas and numpy</li>
+    </section>
+    <section id="contact">
+        <h2>Personal details</h2>
+        <ul>
+            <li><b> Father name:</b> B.Anjaneyulu </li>
+            <li><b>Mothername:</b> B.Renuka</li>
+            <li><b>Date of Birth:</b> 07/02/2005</li>
+            <li><b>Gender:</b> Female</li>
+            <li><b>Address:</b> Near Archi Street Dronadula Martur mandal.</li>
+        </ul>
+        </section>
+        
+</body>
+</html>
